@@ -1,0 +1,47 @@
+.icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &__item {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  &__name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #A0A0A0;
+  }
+  &__value {
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 5px;
+
+    &--users {
+      background: url("../assets/style/programs/icon-users.svg") no-repeat 0 50%;
+    }
+    &--form {
+      background: url("../assets/style/programs/icon-form.svg") no-repeat 0 50%;
+    }
+    &--start {
+      background: url("../assets/style/programs/icon-calendar.svg") no-repeat 0 50%;
+    }
+    &--lang {
+      background: url("../assets/style/programs/icon-word.svg") no-repeat 0 50%;
+    }
+    &--days {
+      background: url("../assets/style/programs/icon-time.svg") no-repeat 0 50%;
+    }
+    &--document {
+      background: url("../assets/style/programs/icon-award.svg") no-repeat 0 50%;
+    }
+    &--time {
+      background: url("../assets/style/programs/icon-days.svg") no-repeat 0 50%;
+    }
+  }
+
+
+}

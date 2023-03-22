@@ -1,0 +1,36 @@
+.auth {
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  background: url("../assets/style/auth-bg.png") no-repeat 100% 0;
+  background-size: contain;
+
+  &__body {
+    border-radius: 30px;
+    width: 400px;
+    padding: 30px;
+    border: 1px solid #D9D9D9;
+    background: #FFFFFF;
+    margin: 0 auto;
+  }
+
+
+  &__logo {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__title {
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: #A30236;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,17 @@
+.upload {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: #FFEFEB;
+  border-radius: 10px;
+
+  &__name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A0A0A0;
+    flex-grow: 1;
+  }
+}

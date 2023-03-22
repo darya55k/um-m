@@ -1,0 +1,27 @@
+.dl {
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  &__dt {
+    width: 200px;
+    padding-right: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #686868;
+  }
+  &__dd {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  &--w100 {
+    .dl__item {
+      justify-content: space-between;
+    }
+    width: 100%;
+  }
+}

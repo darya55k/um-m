@@ -1,0 +1,38 @@
+.text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #252525;
+  margin-bottom: 20px;
+
+  &--s {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  &--xs {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  &--grey {
+    color: #686868;
+  }
+  &--lightgrey {
+    color: #A0A0A0;
+  }
+
+  &--light-grey {
+    color: #a0a0a0;
+  }
+
+  &--mb40 {
+    margin-bottom: 40px;
+  }
+
+  &--20-27-500 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+  }
+}

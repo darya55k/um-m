@@ -1,0 +1,35 @@
+.areas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+
+
+  &__item {
+    padding: 17px 20px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #A30236;
+    margin-bottom: 10px;
+  }
+  &__list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    a {
+      color: #252525;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+}

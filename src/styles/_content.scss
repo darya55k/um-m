@@ -1,0 +1,37 @@
+.content {
+  max-width: 1280px;
+  padding: 100px 0 0 0;
+  margin: 0 auto;
+
+  &--footer {
+    padding: 0;
+  }
+  &--60 {
+    padding: 60px 0 0 0;
+  }
+  &--0 {
+    padding: 0;
+  }
+}
+
+.content__row {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  &--center {
+    align-items: center;
+  }
+}
+
+.content__col {
+  &--1 {
+    width: 31.25%;
+  }
+
+  &--2 {
+    width: 65.625%;
+  }
+  &--50 {
+    width: 48.43%;
+  }
+}

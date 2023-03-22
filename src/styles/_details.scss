@@ -1,0 +1,60 @@
+details {
+  display: inline;
+  position: relative;
+}
+
+details > summary:focus {
+  outline: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary {
+  list-style: none;
+  text-decoration: underline dotted #A0A0A0;
+}
+
+details > summary + * {
+  position: absolute;
+  display: block;
+  z-index: 1;
+  border: solid 1px #A0A0A0;
+  border-radius: 5%;
+  padding: 10px;
+  background: white;
+  white-space: nowrap;
+  width: auto;
+  user-select: none;
+  font-size: 14px;
+}
+
+details > * + * {
+  /* hide detail elements that would ruin the popover */
+  display: none;
+}
+
+details[data-popover="up"] > summary + * {
+  bottom: calc(0.5rem + 100%);
+  right: 50%;
+  transform: translateX(50%);
+}
+
+details[data-popover="down"] > summary + * {
+  top: calc(0.5rem + 100%);
+  right: 50%;
+  transform: translateX(50%);
+}
+
+details[data-popover="left"] > summary + * {
+  right: calc(1rem + 100%);
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+details[data-popover="right"] > summary + * {
+  left: calc(1rem + 100%);
+  bottom: 50%;
+  transform: translateY(50%);
+}

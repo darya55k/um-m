@@ -1,0 +1,107 @@
+.form {
+  display: block;
+  position: relative;
+
+  &__block {
+    margin-bottom: 60px;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 16px;
+    color: #a30236;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__text {
+    padding: 120px 0 100px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #252525;
+  }
+
+  &__row {
+    display: block;
+    margin: 0 0 20px 0;
+
+    &--mb30 {
+      margin-bottom: 30px;
+    }
+    &--mb20 {
+      margin-bottom: 20px;
+    }
+    &--mb15 {
+      margin-bottom: 15px;
+    }
+    &--mb10 {
+      margin-bottom: 10px;
+    }
+
+    &--flex {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    &--aifs {
+      align-items: flex-start;
+    }
+
+    &--gap6 {
+      gap: 6px;
+    }
+
+    &--gap8 {
+      gap: 8px;
+    }
+
+    &--gap10 {
+      gap: 10px;
+    }
+
+    &--posr {
+      position: relative;
+    }
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    gap: 8px 20px;
+    width: 100%;
+
+    &--gap20 {
+      gap: 20px;
+    }
+
+    &--gap40-10 {
+      gap: 40px 10px;
+    }
+
+    &--2 {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    &--4 {
+      grid-template-columns: 9fr 3fr 3fr 1fr;
+    }
+    &--5 {
+      grid-template-columns: 7fr 2fr 2fr 3fr 1fr;
+    }
+    &--6 {
+      grid-template-columns: 14fr 4fr 4fr 4fr 4fr 1fr;
+    }
+    &--col4 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+}

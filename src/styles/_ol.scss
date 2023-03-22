@@ -1,0 +1,51 @@
+.ol {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+
+
+  &__item {
+    box-sizing: border-box;
+    width: 50%;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #686868;
+    min-height: 40px;
+
+    &:nth-child(2n) {
+      padding-left: 67px;
+    }
+    &:nth-child(2n+1) {
+      padding-right: 17px;
+      padding-left: 50px;
+    }
+    &:nth-child(1) {
+      background: url("../assets/style/num-1.png") no-repeat 0 2px;
+      background-size: 16px auto;
+    }
+    &:nth-child(2) {
+      background: url("../assets/style/num-2.png") no-repeat 17px 2px;
+      background-size: 28px auto;
+    }
+    &:nth-child(3) {
+      background: url("../assets/style/num-3.png") no-repeat 0 2px;
+      background-size: 29px auto;
+    }
+    &:nth-child(4) {
+      background: url("../assets/style/num-4.png") no-repeat 17px 2px;
+      background-size: 31px auto;
+    }
+    &:nth-child(5) {
+      background: url("../assets/style/num-5.png") no-repeat 0 2px;
+      background-size: 29px auto;
+    }
+    &:nth-child(6) {
+      background: url("../assets/style/num-6.png") no-repeat 17px 0;
+      background-size: 30px auto;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.file {
+  width: 340px;
+  height: 86px;
+  background: #F7F7F7;
+  border: 1px solid #D9D9D9;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  position: relative;
+
+  &__body {
+    display: flex;
+    gap: 14px;
+    border: 1px dashed #686868;
+    border-radius: 7px;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__input {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}

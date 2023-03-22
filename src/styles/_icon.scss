@@ -1,0 +1,23 @@
+.icon {
+  width: 22px;
+  height: 22px;
+  display: block;
+
+  background: no-repeat center center;
+
+  &--save {
+    background-image: url("../assets/style/icon-save.svg");
+  }
+
+  &--info {
+    background-image: url("../assets/style/icon-info.svg");
+  }
+
+  &--upload {
+    background-image: url("../assets/style/icon-upload.svg");
+  }
+
+  &--uploaded {
+    background-image: url("../assets/style/icon-uploaded.svg");
+  }
+}

@@ -1,0 +1,42 @@
+.ul {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #252525;
+
+  li {
+    padding: 3px 0 0 30px;
+    margin: 0 0 10px 0;
+  }
+  &--list li {
+    list-style: disc;
+    padding-left: 0;
+    margin-left: 25px;
+  }
+  &__ico {
+    background: url("../assets/style/icon-files.svg") no-repeat 0 0;
+  }
+  &__gray {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #686868;
+  }
+  li.ul__attention {
+    position: relative;
+    padding: 3px 0 0 21px;
+    min-height: 30px;
+
+    &:before {
+      position: absolute;
+      left: 0;
+      top: -3px;
+      display: block;
+      content: "!";
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 100%;
+      color: #A30236;
+    }
+  }
+}

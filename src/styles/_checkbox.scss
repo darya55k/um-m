@@ -1,0 +1,15 @@
+.checkbox {
+  margin: 0 15px 0 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #D9D9D9;
+  background: #FFFFFF;
+  border-radius: 5px;
+  appearance: none;
+  vertical-align: text-bottom;
+  flex-shrink: 0;
+}
+
+.checkbox:checked {
+  background: #FFFFFF url("../assets/style/checkbox.svg") no-repeat center center;
+}

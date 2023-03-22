@@ -1,0 +1,82 @@
+.twin {
+  $this: &;
+
+  &s {
+    display: grid;
+    gap:40px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 0 100px;
+    &--2 {
+      grid-template-columns: 1fr;
+      max-width: 630px;
+    }
+  }
+
+  display: flex;
+  background: #F7F7F7;
+  border-radius: 60px 60px 60px 0;
+  color: #252525;
+
+  &--right {
+    border-radius: 60px 0 60px 60px;
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+
+  &--invert {
+    background: #252525;
+    color: #ffffff;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 40px 45px 40px 40px;
+  }
+
+  &__title {
+    color: #ca3023;
+    margin: 0 0 40px 0;
+    font-size: 32px;
+    line-height: 42px;
+
+    #{$this}--invert & {
+      color: #ffffff;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 40px;
+  }
+
+  &__link {
+    &s {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+    font-size: 16px;
+    line-height: 21px;
+    color: #686868;
+    text-decoration: none;
+
+    #{$this}--invert & {
+      color: #ffffff;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  span.twin__link {
+    opacity: .3;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+}
